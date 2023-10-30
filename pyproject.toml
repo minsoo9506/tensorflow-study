@@ -12,8 +12,12 @@ authors = ["minsoo9506 <ghktjd15gh@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11, <3.12"
+tensorflow-macos = "^2.14.0"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.26.0"
 
 [build-system]
 requires = ["poetry-core"]
